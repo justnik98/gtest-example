@@ -5,6 +5,6 @@ add_subdirectory(lib)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 # adding the Google_Tests_run target
-add_executable(gtests sqrTests.cpp)
+add_executable(gtests test.cpp)
 
 target_link_libraries(gtests gtest gtest_main)
